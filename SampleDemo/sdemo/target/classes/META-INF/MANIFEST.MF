@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1619780608141
+Build-Jdk: 14.0.2
+Built-By: Akhil Chanda
+Bundle-Activator: org.sdemo.Activator
+Bundle-Description: sdemo OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: sdemo Bundle
+Bundle-SymbolicName: sdemo
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.sdemo;version="0.0.1.SNAPSHOT";uses:="org.osgi.frame
+ work"
+Import-Package: org.osgi.framework;version="[1.8,2)",javax.naming,javax.
+ sql,com.mysql.cj.jdbc
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103

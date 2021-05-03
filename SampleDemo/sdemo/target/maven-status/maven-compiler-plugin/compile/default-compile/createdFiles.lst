@@ -1,0 +1,6 @@
+org\sdemo\Insertion.class
+org\sdemo\Updation.class
+org\sdemo\Activator.class
+org\sdemo\JdbcConnection.class
+org\sdemo\Deletion.class
+org\sdemo\Selection.class
