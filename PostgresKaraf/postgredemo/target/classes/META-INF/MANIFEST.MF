@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1619800142770
+Build-Jdk: 15
+Built-By: prash
+Bundle-Activator: org.postgredemo.Activator
+Bundle-Description: postgredemo OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: postgredemo Bundle
+Bundle-SymbolicName: postgredemo
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.postgredemo;version="0.0.1.SNAPSHOT";uses:="org.osgi
+ .framework"
+Import-Package: javax.naming,javax.sql,org.osgi.framework;version="[1.8,
+ 2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103

@@ -1,0 +1,6 @@
+org\postgredemo\Activator.class
+org\postgredemo\DeleteLogic.class
+org\postgredemo\InsertLogic.class
+org\postgredemo\PostgreConfig.class
+org\postgredemo\DisplayLogic.class
+org\postgredemo\UpdateLogic.class
