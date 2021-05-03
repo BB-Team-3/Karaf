@@ -1,0 +1,3 @@
+feature:repo-add mvn:University/student-feature/0.0.1-SNAPSHOT/xml
+feature:install student-datasource-h2
+feature:install main-logic

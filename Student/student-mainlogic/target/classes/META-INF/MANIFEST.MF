@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1620016940426
+Build-Jdk: 15.0.2
+Built-By: VISHAL
+Bundle-Activator: org.student.mainlogic.Activator
+Bundle-Description: student-mainlogic OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: student-mainlogic Bundle
+Bundle-SymbolicName: student-mainlogic
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.student.mainlogic;version="0.0.1.SNAPSHOT";uses:="or
+ g.osgi.framework"
+Import-Package: org.osgi.framework;version="[1.8,2)",org.student.service
+ .implementation;version="[0.0,1)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103
