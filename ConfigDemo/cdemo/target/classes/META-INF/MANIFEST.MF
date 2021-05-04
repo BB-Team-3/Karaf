@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1620121104138
+Build-Jdk: 14.0.2
+Built-By: Akhil Chanda
+Bundle-Activator: org.cdemo.Activator
+Bundle-Description: cdemo OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: cdemo Bundle
+Bundle-SymbolicName: cdemo
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.cdemo;version="0.0.1.SNAPSHOT";uses:="org.osgi.frame
+ work"
+Import-Package: org.osgi.framework;version="[1.8,2)",javax.naming,javax.
+ sql
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103
